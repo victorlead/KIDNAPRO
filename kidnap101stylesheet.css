@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0b23d4; /* Red color for the title */
+    font-size: 2.5em; /* Increased font size for better visibility */
+}
+h2 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0000FF; /* Blue color for subtitles */
+    font-size: 2em;
+    padding-left: 15px; /* Increased font size for better visibility */
+}
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000; /* Black color for text */
+    font-size: 1.6em; /* Slightly larger font size for readability */
+    line-height: 1.5; /* Increased line height for better readability */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px; /* Added padding for better spacing */
+    
+}
+.lists-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Increased gap for better spacing between lists */
+}
+.dos-list, .donts-list {
+    width: 300px; /* Increased width for better visibility */
+    background-color: #05f9d9; /* Light gray background for contrast */
+    border: 2px solid #000000; /* Black border for definition */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    padding: 30px;
+    text-transform: capitalize;
+   
+    /* Increased padding for better spacing */
+}
+.dos-list, .donts-list{
+    font-size: larger;
+    font-size: 1.7em;
+}
+.fake-docs {
+    font-family: 'Courier New', Courier, monospace;
+    color: #12aeb4d0; /* Red color for emphasis */
+    font-size: 1.5em; /* Increased font size for better visibility */
+    text-align: center; /* Centered text for emphasis */
+    margin-top: 20px; /* Added margin for spacing */
+    text-decoration: underline;
+}
+.fake-docs-list {
+    list-style-type: none; /* Removed default list styling */
+    padding: 0; /* Removed padding for a cleaner look */
+    text-align: center; /* Centered the list items */
+    font-size: larger;
+    font-size: 1.9em;
+}
+
